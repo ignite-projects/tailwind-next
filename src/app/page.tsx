@@ -2,6 +2,7 @@ import { SettingsTabs } from "@app/components/SettingsTabs"
 import * as Input from '@app/components/Input'
 import { Mail, UploadCloud, User } from "lucide-react"
 import * as FileInput from "@app/components/Form/FileInput"
+import { Select } from "@app/components/Form/Select"
 
 export default function Home() {
   return (
@@ -105,6 +106,7 @@ export default function Home() {
             <label htmlFor="country" className="text-sm font-medium text-zinc-700">
               Country
             </label>
+            <Select />
           </div>
 
           <div className="grid grid-cols-form gap-3 pt-5">
